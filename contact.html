@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Charm:wght@700&family=Charmonman&family=Comic+Neue:ital@1&family=Grenze+Gotisch:wght@600&family=Krub:ital,wght@1,500&family=Mansalva&family=Cormorant:wght@600&family=Marcellus+SC&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title title6">Login </h4>
+                    <button type="button" class="close" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter your email id">
+                            </div>
+                            <div class="form-group col-sm-4">
+                               
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row " style="text-align: center;">
+                            <div class="form-group col-3 ">
+                                
+                            </div>
+                            <div class="form-group col-6 ">
+                                <button type="button" class="btn btn-1  title2" id="cancel"><i class="fa fa-ban"></i>cancel</button>
+                                <button type="submit" class="btn btn-2  title2"><i class="fa fa-sign-in"></i>login</button>
+                            </div>
+                            <div class="form-group col-3">
+                                
+                            </div>
+                                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title title6">Search </h4>
+                    <button type="button" class="close" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class=" form-group col-12">
+                                
+                            </div>
+                            <div class="form-group col-12 col-md-3">
+                                
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control form-control-sm mr-1" id="exampleSearchQuery" placeholder="Search..">
+                            </div>
+                            <div class="form-group col-12 col-md-3">
+                                
+                            </div>
+                        </div>
+                        <div class="form-row " style="text-align: center;">
+                            <div class="form-group col-3 ">
+                                
+                            </div>
+                            <div class="form-group col-6 ">
+                                <button type="button" class="btn btn-1  title2" id="cancels"><i class="fa fa-ban"></i>cancel</button>
+                                <button type="submit" class="btn btn-2  title2"><i class="fa fa-search"></i>search</button>
+                            </div>
+                            <div class="form-group col-3">
+                                
+                            </div>
+                                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+     <nav class="navbar navbar-expand-lg navbar-mainbg fixed-top">
+        <a class="navbar-brand navbar-logo" href="./index.html"><i class="fa fa-object-ungroup rotate"></i>Design Fusion</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./index.html"><i><span class="fa fa-home fa-lg"></span></i>Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./aboutus.html"><i class="fa fa-info"></i>About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./services.html"><i class="fa fa-cogs"></i>Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-address-card"></i>Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" id="logs"><i class="fa fa-search"></i>Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" id="log"><i class="fa fa-sign-in"></i>Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<header class="jumbotron back1 content-back-1" >
+        <div class="container " >
+            <div class="row row-header mt-n3">
+                <div class="col-12 title2" style="text-align: center;">
+                   <h1 class="title1"><i class="fa fa-phone rotate" ></i><br>Contact Us</h1>
+                    <p>We are here for you if you have any queries or suggestions. 
+                    <br><i>We strive to uphold our zero complains record by bringing the best customer support at your service<br>
+                    <b></b>
+                    </i></p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="jumbotron ht" style="background-image: linear-gradient(to top, #8590dc,#8590dc);color:black; " >
+        <div class="container">
+
+        <div class="row row-content ">
+           <div class="col-12 title1 ">
+              <h3 class="title1"><b>Location Information</b></h3>
+           </div>
+            <div class="col-12 col-md-5 offset-md-1 ">
+                   <h5>Our Address</h5>
+                    <address style="font-size: 100%">
+		              121, Naini Lake<br>
+                      Canaught Palace, New Delhi<br>
+                      India<br>
+		              <i class="fa fa-phone"></i>: +91 12345 67890<br>
+		              <i class="fa fa-fax"></i>: +91 09876 54321<br>
+		              <i class="fa fa-envelope"></i>:
+                      <a href="mailto:designfusion@interior.net">designfusion@interior.net</a>
+		           </address>
+                   <div class="btn-group" role="group" >
+                    <a role="button" class="btn btn-primary" href="tel:+9112345678"><i class="fa fa-phone"></i></a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i></a>
+                    <a role="button" class="btn btn-success" href="mailto:designfusion@interior.net"><i class="fa fa-envelope-o"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 offset-md-1 wow fadeIn">
+
+                <div class="card card-cascade narrower">
+                  <div class=" card-header bg-primary text-white title8">
+                    <h5 class="mb-0">Map of our Location</h5>
+                  </div>
+                  <div class="card-body text-center">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.4122817151892!2d77.19223201495436!3d28.707222482388353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0200aa7c3443%3A0x54219d7f4cf01030!2sNaini%20Lake!5e0!3m2!1sen!2sus!4v1594500083664!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron ht" style="background-image: linear-gradient(to top, #17043c,#8590dc);color:black; " >
+        <div class="container">
+        <div class="form-back row row-content ml-4 wow fadeIn">
+           <div class="col-12 title8    ">
+              <h3>Send us your Feedback</h3>
+           </div>
+            <div class="col-12 col-md-9 title2">
+                <form action="http://localhost:3000/submit" method="POST">
+                	<div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label    ">First Name</label>
+                        <div class="col-md-10    ">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="" onfocusin="highlight(this)" onfocusout="highlight1(this)" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label    ">Last Name</label>
+                        <div class="col-md-10    ">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="" onfocusin="highlight(this)" onfocusout="highlight1(this)" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label    ">Contact Tel.</label>
+                        <div class="col-5 col-md-3    ">
+                            <input type="tel" class="form-control" for="areacode" id="areacode" name="areacode" placeholder="Area code" onfocusin="highlight(this)" onfocusout="highlight1(this)" required>
+                        </div>
+                        <div class="col-7 col-md-7    ">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number " onfocusin="highlight(this)" onfocusout="highlight1(this)" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label    ">Email</label>
+                        <div class="col-md-10    ">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="abcd@xyz.com" onfocusin="highlight(this)" onfocusout="highlight1(this)" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check    ">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="yes" onfocusin="highlight(this)" onfocusout="highlight1(this)" >
+                                <label class="form-check-label " for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1    " >
+                            <select class="form-control" name="how" id="how" onfocusin="highlight(this)" onfocusout="highlight1(this)" >
+                                <option name="tel" value="tel">Tel.</option>
+                                <option name="em" value="email">Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label    ">Your Feedback</label>
+                        <div class="col-md-10    ">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12" onfocusin="highlight(this)" onfocusout="highlight1(this)" ></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row    ">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary submit">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+             <div class="col-12 col-md">
+            </div>
+       </div>
+
+    </div>
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="row title6">             
+                <div class="col-5 offset-1 col-sm-2 d-md-block d-none">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled title6  ">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 d-md-block d-none">
+                    <h5>Our Address</h5>
+                    <address>
+                      121, Naini Lake<br>
+                      Canaught Palace, New Delhi<br>
+                      India<br>
+                      <i class="fa fa-phone fa-lg"></i>: +91 12345 67890<br>
+                      <i class="fa fa-fax fa-lg"></i>: +91 09876 54321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:designfusion@interior.net">designfusion@interior.net</a>
+                   </address>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center ">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Design Fusion</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src=" https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="js/formscripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Design Fusion: About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Charm:wght@700&family=Charmonman&family=Comic+Neue:ital@1&family=Grenze+Gotisch:wght@600&family=Krub:ital,wght@1,500&family=Mansalva&family=Cormorant:wght@600&family=Marcellus+SC&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title title6">Login </h4>
+                    <button type="button" class="close" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter your email id">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row " style="text-align: center;">
+                            <div class="form-group col-3 ">
+                                
+                            </div>
+                            <div class="form-group col-6 ">
+                                <button type="button" class="btn btn-1  title2" id="cancel"><i class="fa fa-ban"></i>cancel</button>
+                                <button type="submit" class="btn btn-2  title2"><i class="fa fa-sign-in"></i>login</button>
+                            </div>
+                            <div class="form-group col-3">
+                                
+                            </div>
+                                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="searchModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title title6">Search </h4>
+                    <button type="button" class="close" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class=" form-group col-12">
+                                
+                            </div>
+                            <div class="form-group col-12 col-md-3">
+                                
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                    <input type="text" class="form-control form-control-sm mr-1" id="exampleSearchQuery" placeholder="Search..">
+                            </div>
+                            <div class="form-group col-12 col-md-3">
+                                
+                            </div>
+                        </div>
+                        <div class="form-row " style="text-align: center;">
+                            <div class="form-group col-3 ">
+                                
+                            </div>
+                            <div class="form-group col-6 ">
+                                <button type="button" class="btn btn-1  title2" id="cancels"><i class="fa fa-ban"></i>cancel</button>
+                                <button type="submit" class="btn btn-2  title2"><i class="fa fa-search"></i>search</button>
+                            </div>
+                            <div class="form-group col-3">
+                                
+                            </div>
+                                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-mainbg fixed-top">
+        <a class="navbar-brand navbar-logo" href="./index.html"><i class="fa fa-object-ungroup rotate"></i>Design Fusion</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./index.html"><i><span class="fa fa-home fa-lg"></span></i>Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-info"></i>About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./services.html"><i class="fa fa-cogs"></i>Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html"><i class="fa fa-address-card"></i>Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" id="logs"><i class="fa fa-search"></i>Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" id="log"><i class="fa fa-sign-in"></i>Login</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron back1 content-back-1" >
+        <div class="container " >
+            <div class="row row-header mt-n3" >
+                <div class="col-12 title2" style="text-align: center;">
+                    <h1 class="title1"><i class="fa fa-info rotate" ></i><br>About Us</h1>
+                    <p>We specialize in customised interior design to meet the needs and views of our customers. 
+                    <br><i>Our last 10 years of successful operation with zero complaints is a milestone we strive to keep up in future.<br>
+                    <b></b>
+                    </i></p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="jumbotron ht" style="background-image: linear-gradient(to top, #8590dc,#8590dc);color:black; " >
+        <div class="container">
+
+        <div class="row row-content">
+            <div class="col-12 col-md-6 title2  " style="text-align: justify;">
+                <h2 class="title1">Our History</h2>
+                <p>Started in 2010, Design Fusion quickly established itself as a interior designer icon par excellence in New Delhi. With its unique brand of world fusion decor that can be found nowhere else, it enjoys patronage from the A-list clientele in entire India.  Featuring some of the best designing ideas in the world, you never know what will arrive on your wall the next time you visit us.</p>
+                <p>The company traces its humble beginnings to <em>The Room  changer</em>, a successful chain started by our CEO, Mr. Vaibhav Dubey, that featured for the first time the world's best interior decorators.</p>
+            </div>
+            <div class="col-12 col-md-6 wow fadeIn   " >
+                <br><br>
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white title3">Facts At a Glance</h3>
+                    <div class="card-body title2">
+                        <dl class="row">
+                            <dt class="col-6 ">Started</dt>
+                            <dd class="col-6">3 Feb. 2010</dd>
+                            <dt class="col-6 ">Major Stake Holder</dt>
+                            <dd class="col-6">Home Decor Inc.</dd>
+                            <dt class="col-6 ">Last Year's Turnover</dt>
+                            <dd class="col-6">Rs 1,250,375</dd>
+                            <dt class="col-6 ">Employees</dt>
+                            <dd class="col-6">100</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card card-body bg-light wow fadeIn   " >
+                    <blockquote class="blockquote">
+                        <p class="mb-0 title6">Your home should tell the story of who you are and what you love.</p>
+                        <footer class="blockquote-footer">Nate Berkus,
+                            <cite title="Source Title">The Famous Interior Designer</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron ht content-back1"  style="background-image: linear-gradient(to top, #17043c, #8590dc);">
+        <div class="container">
+
+        <div class="row row-content title2">
+            <div class="col-12">
+                <h2 class="title1   " style="color: black;">Corporate Leadership</h2>
+
+                <div id="accordion" style="color: black;">
+                    <div class="card wow fadeIn   " >
+                        <div class="card-header title3" role="tab" id="vaibhavhead">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#vaibhav">
+                            <b>Vaibhav Dubey</b> <small>Chief Executive Officer</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse show" id="vaibhav" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class=" d-sm-block">Our CEO, Vaibhav, credits his hardworking parents who always supported him in his journey to become an interior designer and letting him pursue his passion with the intention of giving their children the best future. His mother's creativity to decorate their house with whatever unique piece of furnishing they could get from annual fares which have items from all over india was his inspiration to create fusion interiors for which <em>The Room Changer</em> became well known. He brings his zeal for fusion interiors to this company, pioneering cross-cultural interior connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card wow fadeIn   " >
+                        <div class="card-header title3" role="tab" id="ananyahead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#ananya">
+                                <b>Ananya Singh</b> <small>Chief Design Officer</small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="ananya" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class=" d-sm-block">Our CDO, Ananya, the star designer and valedictorian of her batch, comes from a long established family tradition in arts and designing. Her experiences growing up in an palace privately owned by her family in the South Indian outback gave her great appreciation for varieties of interior design sources. As she puts it in her own words, <em>Everything that looks good, wins, and everything that feels good, pays!</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card wow fadeIn   " >
+                        <div class="card-header title3" role="tab" id="omhead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#om">
+                                <b>Om Vashishtha</b> <small>Chief Color Officer</small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="om" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class=" d-sm-block">Blessed with the most discerning vibrant visual sense, Om, our CCO, personally ensures that every item that we design meets his exacting tastes and perfectly fits the customers demands. Our chefs dread the tongue lashing that ensues if their designes does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my wits.</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card wow fadeIn   " >
+                        <div class="card-header title3" role="tab" id="harshithead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#harshit">
+                                <b>Harshit Agarwal</b> <small>Chief Room Designer</small>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="harshit" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class=" d-sm-block">Award winning three-star New York designer with wide International experience having worked closely with whos-who in the architecture world, he specializes in creating mind-boggling Indo-American fusion designes. He says, <em>Put together the ideas from the two craziest cultures, and you get a winning hit! Voila!</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+       </div>
+       <div class="row row-content title2">
+            <div class="col-12 ">
+                <h2 class="title1 " >Facts &amp; Figures</h2>
+                 <div class="table-responsive wow fadeIn   " >
+                    <table class="table table-striped">
+                        <thead class="thead-light">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>2017</th>
+                                <th>2018</th>
+                                <th>2019</th>
+                            </tr>
+                        </thead>
+                        <tbody style="color: white;">
+                            <tr>
+                                <th>Employees</th>
+                                <td>45</td>
+                                <td>80</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <th>Homes Designed</th>
+                                <td>1500</td>
+                                <td>4500</td>
+                                <td>100,00</td>
+                            </tr>
+                            <tr>
+                                <th>Offices Designed</th>
+                                <td>900</td>
+                                <td>2000</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <th>Annual Turnover</th>
+                                <td>Rs 10,51,325</td>
+                                <td>Rs 12,50,375</td>
+                                <td>Rs 30,00,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+       </div> 
+   </div>
+
+    </div>
+
+    <footer class="footer " >
+        <div class="container ">
+            <div class="row title6 " >             
+                <div class="col-5 offset-1 col-sm-2 d-md-block d-none">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled title6">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 d-md-block d-none">
+                    <h5>Our Address</h5>
+                    <address>
+                      121, Naini Lake<br>
+                      Canaught Palace, New Delhi<br>
+                      India<br>
+                      <i class="fa fa-phone fa-lg"></i>: +91 12345 67890<br>
+                      <i class="fa fa-fax fa-lg"></i>: +91 09876 54321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:designfusion@interior.net">designfusion@interior.net</a>
+                   </address>
+                </div>
+                <div class="col-12 col-md-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center ">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Design Fusion</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js"></script>
+    <script>new WOW().init();</script>
+</body>
+
+</html>
